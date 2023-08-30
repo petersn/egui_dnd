@@ -12,9 +12,9 @@ egui_extras = ["dep:egui_extras"]
 egui_inbox = { path = "../egui_inbox" }
 egui_virtual_list = { path = "../egui_virtual_list" }
 
-egui = { version = "0.22.0", default-features = false }
-egui_extras = { version = "0.22.0", default-features = false, optional = true }
+egui = { git = "https://github.com/emilk/egui", branch = "master", default-features = false }
+egui_extras = { git = "https://github.com/emilk/egui", branch = "master", default-features = false, optional = true }
 
 [dev-dependencies]
-eframe = "0.22.0"
+eframe = { git = "https://github.com/emilk/egui", branch = "master" }
 

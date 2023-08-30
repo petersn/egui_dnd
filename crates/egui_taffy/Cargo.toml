@@ -6,10 +6,10 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-egui = { version = "0.22.0", default-features = false }
+egui = { git = "https://github.com/emilk/egui", branch = "master", default-features = false }
 taffy = "0.3"
 
 [dev-dependencies]
-eframe = "0.22.0"
+eframe = { git = "https://github.com/emilk/egui", branch = "master" }
 rand = "0.8.5"
 
